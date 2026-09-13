@@ -1,0 +1,99 @@
+/* Element selector */
+header {
+    background-color: #1b6b93;
+    color: #f4f7f6;
+    text-align: center;
+    font-size: larger;
+    font-weight: 150;
+    padding: 10px 0 10px 0;
+}
+
+/* Class selector */
+.avatar {
+    height: 30%;
+    width: 30%;
+    border: 3px dashed #d9383a;
+    border-radius: 5%;
+}
+
+.cards h2::before {
+    content: "✦ ";
+    color: #d9383a;
+}
+
+nav {
+    margin: 20px 0 20px 0;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px dashed #d9383a;
+    padding: 20px 0 20px 0;
+}
+
+/* Descendant selector */
+nav a{
+    color: #d9383a;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav a:hover,
+#about-me a:hover{
+    color: #1b6b93;
+    text-decoration: underline;
+}
+
+nav a:focus,
+#about-me a:focus{
+    color: #63931b;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #222831;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 100;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1b6b93;
+    color: #f4f7f6;
+}
+
+button:focus {
+    font-family: monospace;
+    background-color: #63931b;
+    color: #f4f7f6;
+}
+
+.cards {
+    background-color: #ffffff;
+}
+
+form:focus {
+    color: #d9383a;
+}
+
+#about-me a {
+    text-decoration: none;
+    color: #222831;
+}
+
+/* ID selector */
+#about-me,
+#course-schedule,
+#sending-request {
+    border: 1px dashed #d9383a;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 20px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    color: #6a6a6a;
+    margin: 20px 0 20px 0;
+}
+
