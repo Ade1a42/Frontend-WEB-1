@@ -97,3 +97,8 @@ footer {
     margin: 20px 0 20px 0;
 }
 
+#course-schedule table,
+#course-schedule th,
+#course-schedule td {
+    border: 1px solid black;   
+}
