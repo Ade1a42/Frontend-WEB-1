@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;" data-bs-theme="light">
+            <div class="container-fluid" >
+                <a class="navbar-brand"> Fake Gallery </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#random-gallery"> Random Gallery </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fan-fact"> Fan Facts </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#posts"> Posts </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#astana-day-gallery"> Galler for Astana Day </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+         <!-- Task 1 -->
+            <!-- (col-lg-6): img -->
+            <section class="m-2 p-lg-4 p-2" id="random-gallery">
+                <h3 class="mb-lg-4 mb-2"> Welcome to Gallery of random photos </h3>
+                <div class="row g-3"> 
+                    <div class="col-lg-6 col-sm-6">
+                    <img class="img-fluid" src="https://picsum.photos/300/180?1" alt="random_img">
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                    <img class="img-fluid"  src="https://picsum.photos/300/180?2" alt="random_img">
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                    <img class="img-fluid" src="https://picsum.photos/300/180?3" alt="random_img">
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                    <img class="img-fluid" src="https://picsum.photos/300/180?4" alt="random_img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- (col-lg-4): facts -->            
+            <article class="m-2 p-lg-4 p-2" id="fan-fact">
+                <h3 class="mb-lg-4 mb-2"> Fan facts about gallery </h3>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6"> 
+                        <div class="card p-2">
+                            <p>Random image generators like this one are often used by developers to quickly mock up a design before real content is ready.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-2">
+                            <p> Placeholder image services became popular because designers needed realistic photo content without licensing real stock photography early in a project. </p>
+                        </div>                        
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-2">
+                            <p> Most placeholder image APIs let you control exact width and height in the URL, making them easy to drop into any grid layout. </p>
+                        </div>                        
+                    </div>
+
+                    <div class="col-lg-4 col-md-6"> 
+                        <div class="card p-2">
+                            <p> Using consistent aspect ratios across a gallery, like 300x180 here, keeps rows visually aligned even when the photos themselves are completely different. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-2">
+                            <p> A gallery like this is a common first project for learning CSS Grid or Bootstrap's column system, since it needs clear, repeatable structure. </p>
+                        </div>                        
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-2">
+                            <p> Lazy-loading and responsive image classes, such as Bootstrap's img-fluid, help galleries like this one load quickly on both mobile and desktop. </p>
+                        </div>                        
+                    </div>     
+                </div>
+            </article>
+
+        <!-- Task 4 & 6 -->
+        <section class=" cards m-2 p-lg-4 p-2" id="posts">            
+            <h3 class="mb-lg-4 mb-2"> Posts </h3>
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://picsum.photos/300/180?5" class="card-img-top" alt="ResponsiveGellaryImg">
+                    <div class="card-body">
+                        <h5 class="card-title"> Building a Responsive Gallery </h5>
+                        <p class="card-text">A short walkthrough of how this gallery section was put together using Bootstrap's grid system, from the initial layout sketch to the final responsive columns.</p>
+                        <button class="btn btn-outline-primary"> Share </button>
+                    </div>                    
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/300/180?6" class="card-img-top" alt="WhySpacingImg">
+                    <div class="card-body">
+                        <h5 class="card-title">Why Spacing Utilities Matter</h5>
+                        <p class="card-text">A look at how Bootstrap's margin and padding classes replaced custom inline styles across this project, making spacing consistent and screen-size aware.</p>
+                        <button class="btn btn-outline-primary" > Share </button>
+                    </div>                    
+                </div>
+                
+                <div class="card">
+                    <img src="https://picsum.photos/300/180?7" class="card-img-top" alt="CoruselVsStaticImg" >
+                    <div class="card-body">
+                        <h5 class="card-title">Carousel vs Static Gallery</h5>
+                        <p class="card-text">Comparing when a rotating carousel makes sense versus a simple static image grid, and why this page uses both for different sections.</p>
+                        <button class="btn btn-outline-primary"> Share </button>
+                    </div>                    
+                </div>                
+            </div>
+        </section>
+
+        <!-- Task 5 -->
+        <section class="m-2 p-lg-4 p-2" id="astana-day-gallery">
+            <h3 class="mb-lg-4 mb-2"> Gallery for Astana Day </h3>
+            <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Astana-1.jpg" class="d-block w-100" alt="Illuminated grand arch building with a colorful fountain at night">
+                </div>
+                <div class="carousel-item">
+                <img src="https://img.forbes.kz/forbes-photobank/media/2025-02-17/85683a56-5f9a-4a05-9f1d-4667a7433a77.webp" class="d-block w-100" alt="Spherical Nur Alem pavilion and Astana skyline at sunset">
+                </div>
+                <div class="carousel-item">
+                <img src="https://kazpravda.kz/media/uploads/publication2/115/19/115198-image.jpg" class="d-block w-100" alt="Night panorama of Astana with a lit mosque and glowing highway">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>            
+        </section>
+    </main>
+
+    <footer>
+        <p> Midterm project | WEB Technologies 1 (Front End) | Assel Nurzhankyzy | IT-2514 </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
+</body>
+</html>
