@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> AS<span>.</span> </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
+                        <li class="nav-item"><a class="nav-link active" href="projects.html"> Projects </a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <!-- HEADING -->
+        <section class="m-2 p-lg-4 p-2">
+            <span class="badge rounded-pill mb-2"> Projects </span>
+            <h1> A collection of <span class="highlight"> my work </span> </h1>
+            <p class="lead">
+                Learning projects, coursework and team experience. I only list what I have really done.
+            </p>
+        </section>
+
+        <!-- PROJECT CARDS -->
+        <section class="m-2 p-lg-4 p-2">
+            <div class="row g-3">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge rounded-pill badge-purple mb-2"> Learning projects </span>
+                            <h5 class="card-title"> 01. Go Learning Projects </h5>
+                            <p class="card-text">
+                                Command-line tools, a web server and team projects written in Go
+                                during my studies at Tomorrow School.
+                            </p>
+                            <p>
+                                <span class="badge"> Go </span>
+                                <span class="badge"> Git </span>
+                                <span class="badge"> GitHub </span>
+                            </p>
+                            <a href="#details" class="btn btn-main"> More details </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge rounded-pill badge-purple mb-2"> Coursework </span>
+                            <h5 class="card-title"> 02. Frontend Coursework </h5>
+                            <p class="card-text">
+                                Assignments from my Web Technologies course at Astana IT University:
+                                from plain HTML to Bootstrap, JavaScript and jQuery.
+                            </p>
+                            <p>
+                                <span class="badge"> HTML </span>
+                                <span class="badge"> CSS </span>
+                                <span class="badge"> Bootstrap </span>
+                                <span class="badge"> JS </span>
+                            </p>
+                            <a href="#details" class="btn btn-main"> More details </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge rounded-pill badge-purple mb-2"> Team achievement </span>
+                            <h5 class="card-title"> 03. CS GO — SheCodes </h5>
+                            <p class="card-text">
+                                Team "CS GO" won the Grand Prize in the SheCodes Command Center
+                                Mentorship Program.
+                            </p>
+                            <p>
+                                <span class="badge"> Teamwork </span>
+                                <span class="badge"> Mentorship </span>
+                            </p>
+                            <a href="#details" class="btn btn-main"> More details </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECT DETAILS: Bootstrap accordion -->
+        <section class="m-2 p-lg-4 p-2" id="details">
+            <h3 class="mb-lg-4 mb-2"> Project details </h3>
+
+            <div class="accordion" id="projectsAccordion">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGo" aria-expanded="true" aria-controls="collapseGo">
+                            01. Go Learning Projects
+                        </button>
+                    </h2>
+                    <div id="collapseGo" class="accordion-collapse collapse show" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <h6> Technologies </h6>
+                                    <p> Go, Git, GitHub. </p>
+                                    <h6> Links </h6>
+                                    <p><a href="https://github.com/Ade1a42/go-refresh" target="_blank"> go-refresh on GitHub </a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6> What I did </h6>
+                                    <ul>
+                                        <li> go-refresh: a text-processing CLI with automatic corrections </li>
+                                        <li> symbol-web: a web server (GUI) version of symbol-art, with LLM-powered text suggestions and a rule-based banner recommendation </li>
+                                        <li> Team projects: ascii-art and TCPChat (net-cat) </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6> What I learned </h6>
+                                    <p>
+                                        Planning a task from a specification, testing my own code and
+                                        working with other people in a peer-to-peer, project-based system.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFront" aria-expanded="false" aria-controls="collapseFront">
+                            02. Frontend Coursework
+                        </button>
+                    </h2>
+                    <div id="collapseFront" class="accordion-collapse collapse" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <h6> Technologies </h6>
+                                    <p> HTML, CSS, Flexbox, Grid, Bootstrap 5, JavaScript, jQuery. </p>
+                                    <h6> Links </h6>
+                                    <p><a href="https://github.com/Ade1a42/Frontend-WEB-1" target="_blank"> Course repository </a></p>
+                                    <p><a href="https://ade1a42.github.io/Frontend-WEB-1/" target="_blank"> Live assignments </a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6> What I did </h6>
+                                    <ul>
+                                        <li> Layouts with Flexbox and CSS Grid </li>
+                                        <li> A responsive page with media queries and the Bootstrap grid </li>
+                                        <li> DOM and events with JavaScript, effects with jQuery </li>
+                                        <li> A midterm gallery page </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6> What I learned </h6>
+                                    <p>
+                                        How a page is built from structure (HTML), style (CSS) and behaviour
+                                        (JavaScript), and how to make one layout work on any screen size.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShe" aria-expanded="false" aria-controls="collapseShe">
+                            03. CS GO — SheCodes Command Center
+                        </button>
+                    </h2>
+                    <div id="collapseShe" class="accordion-collapse collapse" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <h6> Type </h6>
+                                    <p> Team experience and achievement (not a standalone software product). </p>
+                                    <h6> Result </h6>
+                                    <p> Grand Prize. </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6> What I did </h6>
+                                    <p> Took part in the Command Center Mentorship Program as a member of team "CS GO". </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6> What I learned </h6>
+                                    <p> Working in a team with a mentor, using feedback and presenting results. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row g-3">
+
+                <div class="col-md-4 col-12">
+                    <h5> AS<span>.</span> </h5>
+                    <p> Computer Science student at Astana IT University. </p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <h5> Pages </h5>
+                    <a href="index.html"> Home </a>
+                    <a href="projects.html"> Projects </a>
+                    <a href="about.html"> About </a>
+                    <a href="about.html#contact"> Contact </a>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <h5> Find me </h5>
+                    <a href="https://github.com/Ade1a42" target="_blank"> GitHub </a>
+                    <a href="https://linkedin.com/in/asel-n-9b1822351" target="_blank"> LinkedIn </a>
+                </div>
+
+            </div>
+
+            <p class="text-center small text-white-50 border-top border-secondary pt-3 mt-4"> Endterm project | WEB Technologies 1 (Front End) | Asel Nurzhankyzy | IT-2514 | <span id="year">2026</span> </p>
+        </div>
+    </footer>
+
+    <button id="backTopBtn"> &uarr; </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>

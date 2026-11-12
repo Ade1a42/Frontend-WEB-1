@@ -1,0 +1,321 @@
+/* BODY */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f4ee;
+    color: #211e27;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #7557e8;
+}
+
+a:hover {
+    color: #211e27;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color: #f7f4ee;
+    border-bottom: 2px solid #211e27;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    color: #211e27;
+}
+
+.navbar-brand span {
+    color: #7557e8;
+}
+
+.nav-link {
+    color: #211e27 !important;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 6px 16px 6px 16px !important;
+    margin: 0 0 0 6px;
+}
+
+.nav-link:hover {
+    color: #7557e8 !important;
+}
+
+.nav-link.active {
+    background-color: #d9f16b;
+    border: 2px solid #211e27;
+}
+
+
+/* TEXT ELEMENTS */
+.highlight {
+    background-color: #d9f16b;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.badge {
+    background-color: #d9f16b;
+    color: #211e27;
+    border: 2px solid #211e27;
+    font-weight: 600;
+}
+
+.badge-purple {
+    background-color: #7557e8;
+    color: #ffffff;
+}
+
+
+/* BUTTONS */
+.btn-main,
+.btn-alt {
+    font-weight: 600;
+    border: 2px solid #211e27;
+    border-radius: 14px;
+    padding: 10px 22px 10px 22px;
+    box-shadow: 4px 4px 0 #211e27;
+}
+
+.btn-main {
+    background-color: #7557e8;
+    color: #ffffff;
+}
+
+.btn-alt {
+    background-color: #d9f16b;
+    color: #211e27;
+}
+
+.btn-main:hover,
+.btn-alt:hover {
+    background-color: #211e27;
+    border-color: #211e27;
+    color: #ffffff;
+}
+
+
+/* CARDS */
+.card {
+    background-color: #ffffff;
+    border: 2px solid #211e27;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0 #211e27;
+}
+
+.card:hover {
+    transform: translate(-3px, -3px);
+}
+
+
+/* HOME PAGE */
+
+.shapes {
+    position: relative;
+    height: 240px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 130px;
+    height: 130px;
+    background-color: #d9f16b;
+    border: 2px solid #211e27;
+    border-radius: 50%;
+}
+
+.square {
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    width: 110px;
+    height: 110px;
+    background-color: #7557e8;
+    border: 2px solid #211e27;
+    border-radius: 20px;
+    transform: rotate(-12deg);
+}
+
+.name-card {
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    background-color: #ffffff;
+    border: 2px solid #211e27;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0 #211e27;
+    padding: 15px 24px 15px 24px;
+    text-align: center;
+}
+
+.name-card h2 {
+    font-size: 38px;
+    margin: 0;
+}
+
+.name-card p {
+    font-size: small;
+    margin: 0;
+}
+
+.achievement {
+    background-color: #d9f16b;
+    border: 2px solid #211e27;
+    border-radius: 20px;
+}
+
+
+/* ACCORDION (Bootstrap) */
+.accordion-item {
+    background-color: #ffffff;
+    border: 2px solid #211e27;
+    border-radius: 16px !important;
+    overflow: hidden;
+    margin: 0 0 14px 0;
+}
+
+.accordion-button {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: #211e27;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d9f16b;
+    color: #211e27;
+    box-shadow: none;
+}
+
+.accordion-body h6 {
+    color: #7557e8;
+    font-weight: 700;
+}
+
+
+/* ABOUT PAGE */
+.avatar {
+    background-color: #7557e8;
+    color: #ffffff;
+    border: 2px solid #211e27;
+    border-radius: 30px;
+    box-shadow: 8px 8px 0 #211e27;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+/* jQuery menu: panels are hidden at the start */
+
+
+.more-panel {
+    display: none;
+    background-color: #ffffff;
+    border: 2px solid #211e27;
+    border-radius: 14px;
+    padding: 12px 16px 12px 16px;
+    margin: 6px 0 0 0;
+}
+
+.more-panel {
+    display: none;
+}
+
+.form-control {
+    border: 2px solid #211e27;
+    border-radius: 12px;
+}
+
+.form-control:focus {
+    border-color: #7557e8;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #211e27;
+    color: #f7f4ee;
+    padding: 30px 0 10px 0;
+    margin: 40px 0 0 0;
+}
+
+footer h5 {
+    color: #d9f16b;
+}
+
+footer h5 span {
+    color: #7557e8;
+}
+
+footer a {
+    display: block;
+    color: #f7f4ee;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d9f16b;
+}
+
+
+/* BACK TO TOP BUTTON (shown with jQuery) */
+#backTopBtn {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #d9f16b;
+    border: 2px solid #211e27;
+    border-radius: 50%;
+    box-shadow: 3px 3px 0 #211e27;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+    .hero-content h1 {
+        font-size: 58px;
+    }
+
+    .shapes {
+        height: 280px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .hero-content h1 {
+        font-size: 74px;
+    }
+
+    .shapes {
+        height: 340px;
+    }
+
+    .circle {
+        width: 170px;
+        height: 170px;
+    }
+
+    .square {
+        width: 140px;
+        height: 140px;
+    }
+
+    .name-card {
+        top: 70px;
+    }
+}

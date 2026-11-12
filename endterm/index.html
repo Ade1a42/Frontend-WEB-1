@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> AS<span>.</span> </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html"> Home </a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html"> Projects </a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <!-- HERO -->
+        <section class="m-2 p-lg-4 p-2">
+            <div class="row g-3 align-items-center">
+
+                <!-- LEFT: text -->
+                <div class="col-lg-7 hero-content">
+                    <span class="badge rounded-pill mb-2" id="greeting"> Hello </span>
+                    <h1 class="display-2 fw-bold"> Hi, I'm <span class="highlight"> Asel. </span> </h1>
+                    <p class="lead">
+                        A Computer Science student exploring technology, building projects
+                        and learning how things work behind the scenes.
+                    </p>
+                    <a href="projects.html" class="btn btn-main me-2 mb-2"> Explore my projects </a>
+                    <a href="about.html" class="btn btn-alt mb-2"> More about me </a>
+                </div>
+
+                <!-- RIGHT: shapes made only with CSS -->
+                <div class="col-lg-5">
+                    <div class="shapes">
+                        <div class="circle"></div>
+                        <div class="square"></div>
+                        <div class="name-card">
+                            <h2> AS. </h2>
+                            <p> CS student · Astana </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FACTS -->
+        <section class="m-2 p-lg-4 p-2">
+            <div class="row g-3">
+
+                <div class="col-md-4 col-12">
+                    <div class="card p-3 h-100">
+                        <h5> 2nd year </h5>
+                        <p class="mb-0"> Computer Science at Astana IT University </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="card p-3 h-100">
+                        <h5> Go + Python </h5>
+                        <p class="mb-0"> Languages I build and practice with </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="card p-3 h-100">
+                        <h5> Tomorrow School </h5>
+                        <p class="mb-0"> Peer-to-peer, project-based learning in Astana </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FEATURED WORK -->
+        <section class="m-2 p-lg-4 p-2">
+            <h3 class="mb-lg-4 mb-2"> Featured work </h3>
+            <div class="row g-3">
+
+                <div class="col-md-6 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge rounded-pill badge-purple mb-2"> Go · Web </span>
+                            <h5 class="card-title"> symbol-web </h5>
+                            <p class="card-text">
+                                A Go web server with a browser GUI, built on top of my symbol-art tool.
+                                It adds LLM-powered text suggestions and a rule-based banner recommendation.
+                            </p>
+                            <a href="projects.html#details" class="btn btn-main"> See details </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span class="badge rounded-pill badge-purple mb-2"> Go · CLI </span>
+                            <h5 class="card-title"> go-refresh </h5>
+                            <p class="card-text">
+                                A Go command-line tool that processes text and applies automatic
+                                corrections. A Tomorrow School task.
+                            </p>
+                            <a href="https://github.com/Ade1a42/go-refresh" class="btn btn-main" target="_blank"> View on GitHub </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENT -->
+        <section class="achievement m-2 p-lg-4 p-3">
+            <div class="row g-3 align-items-center">
+                <div class="col-md-8">
+                    <span class="badge rounded-pill badge-purple mb-2"> Selected achievement </span>
+                    <h3> Grand Prize — SheCodes Command Center </h3>
+                    <p class="mb-0"> My team "CS GO" won the Grand Prize in the SheCodes Command Center Mentorship Program. </p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="projects.html" class="btn btn-main"> Read more </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row g-3">
+
+                <div class="col-md-4 col-12">
+                    <h5> AS<span>.</span> </h5>
+                    <p> Computer Science student at Astana IT University. </p>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <h5> Pages </h5>
+                    <a href="index.html"> Home </a>
+                    <a href="projects.html"> Projects </a>
+                    <a href="about.html"> About </a>
+                    <a href="about.html#contact"> Contact </a>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <h5> Find me </h5>
+                    <a href="https://github.com/Ade1a42" target="_blank"> GitHub </a>
+                    <a href="https://linkedin.com/in/asel-n-9b1822351" target="_blank"> LinkedIn </a>
+                </div>
+
+            </div>
+
+            <p class="text-center small text-white-50 border-top border-secondary pt-3 mt-4"> Endterm project | WEB Technologies 1 (Front End) | Asel Nurzhankyzy | IT-2514 | <span id="year">2026</span> </p>
+        </div>
+    </footer>
+
+    <button id="backTopBtn"> &uarr; </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
