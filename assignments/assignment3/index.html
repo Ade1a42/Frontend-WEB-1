@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#"> AITU </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#"> Admission office </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> Academic mobility </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> Transferring students </a></li>
+            </ul>
+            </div>
+
+        </div>
+        </nav>
+    </header>
+
+    <!-- Task 1: Responsive layout with media queries only -->
+    <section class="responsive-boxes">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </section>
+
+    <main class="container mt-4">
+
+        <section class="row g-4" id="projects">
+
+            <!-- LEFT: project cards -->
+            <div class="col-12 col-lg-8">
+                <div class="row g-3">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="https://picsum.photos/300/180?30" class="card-img-top" alt="project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Task Tracker</h5>
+                                <p class="card-text">A simple app to organize daily tasks and set reminders.</p>
+                                <button class="btn btn-primary">View</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="https://picsum.photos/300/180?31" class="card-img-top" alt="project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather App</h5>
+                                <p class="card-text">Shows current weather and a 5-day forecast.</p>
+                                <button class="btn btn-primary">View</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="https://picsum.photos/300/180?32" class="card-img-top" alt="project 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Recipe Finder</h5>
+                                <p class="card-text">Finds recipes based on ingredients you already have.</p>
+                                <button class="btn btn-primary">View</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- RIGHT: sidebar -->
+            <aside class="col-12 col-lg-4">
+                <div class="p-3 border rounded sidebar-info">
+                    <h4>Personal Info</h4>
+                    <p>Asel Nurzhankyzy — first-year student at Astana IT University, focused on front-end and AI engineering.</p>
+                    <h4>Contact</h4>
+                    <p>Email: your.email@example.com</p>
+                    <p>GitHub: github.com/Ade1a42</p>
+                </div>
+            </aside>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p> Assignment 3 | WEB Technologies 1 (Front End)  </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+</body>
+</html>
